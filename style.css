@@ -1,0 +1,132 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Background styling */
+body {
+    background-color: #5b51a2; /* Very Light Gray (Ivory) */
+    color: #333; /* Dark Gray */
+    line-height: 1.6;
+}
+
+/* Main container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #dc143c; /* Crimson */
+    padding: 20px 0;
+    text-align: center;
+    color: #fffff0; /* Ivory */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form input[type="text"], form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Form button */
+form input[type="submit"] {
+    background-color: #dc143c; /* Crimson */
+    color: #fffff0; /* Ivory */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b22222; /* Darker Crimson */
+}
+
+/* Flexbox styling for responsive layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Dark background class */
+.bg-dark {
+    background-color: #dc143c; /* Crimson */
+    color: #fffff0; /* Ivory */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Margin utility */
+.mt-50 {
+    margin-top: 50px;
+}
+
+/* Canvas styling */
+#canvas {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #dc143c; /* Crimson */
+    padding: 20px 0;
+    color: #fffff0; /* Ivory */
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .flex-item {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
